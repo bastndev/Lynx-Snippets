@@ -20,7 +20,11 @@
     "framework",
     "vscode",
     "snippet lynx",
-    "lynxjs snippet"
+    "lynxjs snippet",
+    "react",
+		"lynx",
+		"reactLynx",
+		"snippets"
   ],
   "icon": "icon.png",
   "galleryBanner": {
