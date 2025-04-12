@@ -1,0 +1,53 @@
+{
+  "name": "lynx-js-snippets",
+  "displayName": "LynxJS Snippets",
+  "description": "Productivity snippets for LynxJS development - Official 2025 Edition",
+  "version": "0.0.1",
+  "publisher": "bastndev",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "lynxjs",
+    "snippets",
+    "productivity",
+    "javascript",
+    "typescript",
+    "framework",
+    "vscode"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#0a0a0a",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/bastndev/Lynx-js-Snippets#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bastndev/Lynx-js-Snippets"
+  },
+  "bugs": {
+    "url": "https://github.com/bastndev/Lynx-js-Snippets/issues"
+  },
+  "author": {
+    "name": "Gohit Bastian",
+    "email": "gobasdev@gmail.com",
+    "url": "https://www.bastndev.com"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

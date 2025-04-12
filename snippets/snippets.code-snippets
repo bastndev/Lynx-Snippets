@@ -1,0 +1,39 @@
+{
+    "Import Index": {
+    "prefix": "l-index",
+    "body": [
+      "import \"./index\";",
+      ""
+    ],
+    "description": "Import Index"
+  },
+
+  "Export Function": {
+    "prefix": "l-export =>",
+    "body": [
+      "export const ${1:TextHere} = () => {",
+      "    return (",
+      "        <view>",
+      "            ",
+      "        </view>",
+      "    );",
+      "};"
+    ],
+    "description": "Export Arrow function"
+  },
+
+  "export function": {
+  "prefix": "l-export {}",
+  "body": [
+    "export function ${1:TextHere}() {",
+    "    return (",
+	"        <view>",
+    "            ",
+    "        </view>",
+	"    );",
+    "}",
+    ""
+  ],
+  "description": "export function"
+}
+}
