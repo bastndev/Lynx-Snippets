@@ -1,7 +1,7 @@
 # lynx-js-snippets README
 This extension for Visual Studio Code adds snippets for Lynx-js for TypeScript and React.
 
-![Use Extension](images/use-extension.gif)
+![Use Extension](images/use-snippets.gif)
 
 # Installation
 1. Open (Ctrl+P)
