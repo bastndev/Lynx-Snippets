@@ -1,8 +1,8 @@
 {
   "name": "lynx-js-snippets",
-  "displayName": "Lynx-js Snippets .tsx",
-  "description": "Snippets for ReactLynx and LynxJS - Boost your productivity this 2025",
-  "version": "0.0.2",
+  "displayName": "LynxJS Snippets .tsx",
+  "description": "[>_ ]: Code snippets for Lynx-js and React-Lynx - Extension",
+  "version": "0.1.0",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -12,19 +12,20 @@
     "Snippets"
   ],
   "keywords": [
-    "lynxjs",
+    "LynxJS",
     "snippets",
     "productivity",
-    "javascript",
     "typescript",
     "framework",
-    "vscode",
     "snippet lynx",
+    "Lynx snippets",
     "lynxjs snippet",
     "react",
 		"lynx",
 		"reactLynx",
-		"snippets"
+		"snippets",
+    "Lynx snipets",
+    "snipets lynx js"
   ],
   "icon": "icon.png",
   "galleryBanner": {
