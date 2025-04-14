@@ -1,129 +1,146 @@
 {
-  // --- -- - TODO: import css & more
-  "Import hook": {
-    "prefix": "l-i-hook",
-    "body": ["import { $1, $2 } from '@lynx-js/react'"],
-    "description": "Import hook"
-  },
-  "Import Index css": {
-    "prefix": "l-i-css",
-    "body": ["import \"./index\";", ""],
-    "description": "Import Index css (l-c = ENTER)"
-  },
-  "Import component": {
-    "prefix": "l-i-component",
-    "body": ["import { $1 } from \"./components$2\";"],
-    "description": "Import component"
-  },
-  "Import image": {
-    "prefix": "l-i-i",
-    "body": ["import $1 from './assets$2'"],
-    "description": "Import image"
-  },
+	// --- -- - TODO: import css & more
+	"Import hook": {
+		"prefix": "l-hook.import",
+		"body": [
+			"import { ${1|useState|}$2 } from '@lynx-js/react'",
+			"",
+			"$3"
+		],
+		"description": "Type 'lho' and press ENTER"
+	},
+	"Import CSS": {
+		"prefix": "l-css.import",
+		"body": [
+			"import \"./${1|index|}.css\";",
+			"$2"
+		],
+		"description": "Type 'lcss' and press ENTER"
+	},
+	"Import SCSS": {
+		"prefix": "l-scss.import",
+		"body": [
+			"import \"./${1|index|}.scss\";",
+			"$2"
+		],
+		"description": "Type 'lscs' and press ENTER"
+	},
+	"Import component": {
+		"prefix": "l-component.import",
+		"body": [
+			"import { $1 } from \"./components$2\";",
+			"$3"
+		],
+		"description": "Type 'lcomp' or 'lcp' and press ENTER"
+	},
+	"Import image": {
+		"prefix": "l-image.import",
+		"body": [
+			"import $1 from './assets$2'",
+			"$3"
+		],
+		"description": "Type 'lii' and press ENTER"
+	},
 
-  // --- -- - TODO: Basic component
-  "Lynx-js View": {
-    "prefix": "l-view",
-    "body": ["<view className='$1'>$2</view>"],
-    "description": "Lynx-js view"
-  },
-  "Lynx-js Text": {
-    "prefix": "l-text",
-    "body": ["<text className='$1'>$2</text>"],
-    "description": "Lynx-js Text"
-  },
-  "Lynx-js Image": {
-    "prefix": "l-text",
-    "body": [
-      "      <image",
-      "        className=\"$1\"",
-      "        src={$2}",
-      "      />"
-    ],
-    "description": "Lynx-js Image"
-  },
+	// --- -- - TODO: Basic component
+	"Lynx-js view": {
+		"prefix": "l-view",
+		"body": [
+			"<view className='$1'>",
+			"  $2",
+			"</view>"
+		],
+		"description": "Type 'lv' and press ENTER"
+	},
+	"Lynx-js Text": {
+		"prefix": "l-text",
+		"body": [
+			"<text>$1</text>",
+		],
+		"description": "Type 'lt' and press ENTER"
+	},
+	"Lynx-js Image": {
+		"prefix": "l-image",
+		"body": [
+			"<image className=\"$1\" src={$2} />"
+		],
+		"description": "Type 'limg' and press ENTER"
+	},
 
-  // --- -- - TODO: Scroll and List
-  "Scroll View": {
-    "prefix": "l-scroll-view",
-    "body": [
-      "<scroll-view",
-      "className=\"$1\"",
-      "scroll-orientation=\"$2\"",
-      "style={{",
-      "  width: \"100%\",",
-      "  height: \"100%\",",
-      "  paddingLeft: \"5px\",",
-      "  marginTop: \"5px\",",
-      "  marginLeft: \"5px\",",
-      "}}",
-      ">",
-      "$3",
-      "</scroll-view>"
-    ],
-    "description": "Scroll View"
-  },
-  "List LynxJS": {
-    "prefix": "l-list",
-    "body": [
-      " <list",
-      "        class=\"$1\"",
-      "        scroll-orientation=\"vertical\"",
-      "        list-type=\"waterfall\"",
-      "        span-count={3}",
-      "      >",
-      "        $2",
-      "      </list>",
-      "    );"
-    ],
-    "description": "List LynxJS"
-  },
+	// --- -- - TODO: Scroll and List
+	"Lynx-js Scroll View": {
+		"prefix": "l-scroll-view",
+		"body": [
+			"<scroll-view",
+			"  scroll-orientation=\"${1|vertical|}\"",
+			"  style={{",
+			"    width: \"100%\",",
+			"    height: \"100%\",",
+			"    paddingLeft: \"5px\",",
+			"    marginTop: \"5px\",",
+			"    marginLeft: \"5px\",",
+			"  }}",
+			">",
+			"  $2",
+			"</scroll-view>"
+		],
+		"description": "Type 'lll' and press ENTER"
+	},
+	"Lynx-js List ": {
+		"prefix": "l-list",
+		"body": [
+			"<list",
+			"  scroll-orientation=\"${1|vertical|}\"",
+			"  className=\"${2|list-container|}\"",
+			"  list-type=\"waterfall\"",
+			"  span-count={2}",
+			">",
+			"  $3",
+			"</list>"
+		],
+		"description": "Type 'll' and press ENTER"
+	},
 
-  // --- -- -TODO: Export function
-  "Export Function": {
-    "prefix": "l-export =>",
-    "body": [
-      "export const ${1:TextHere} = () => {",
-      "    return (",
-      "        <view>",
-      "            ",
-      "        </view>",
-      "    );",
-      "};"
-    ],
-    "description": "Export Arrow function"
-  },
+	// --- -- -TODO: Export Arrow function & function
+	"Lynx-js Export Arrow Function": {
+		"prefix": "l-export => function",
+		"body": [
+			"export const ${1:ComponentName} = () => {",
+			"  return (",
+			"    $2",
+			"  );",
+			"};"
+		],
+		"description": "Type 'lex' and press ENTER"
+	},
+	"Lynx-js Export Declaration Function": {
+		"prefix": "l-exxport {} function",
+		"body": [
+			"export function ${1:ComponentName}() {",
+			"  return (",
+			"    $2",
+			"  );",
+			"}",
+			""
+		],
+		"description": "Type 'lexx' and press ENTER"
+	},
 
-  "export function": {
-    "prefix": "l-export {}",
-    "body": [
-      "export function ${1:TextHere}() {",
-      "    return (",
-      "        <view>",
-      "            ",
-      "        </view>",
-      "    );",
-      "}",
-      ""
-    ],
-    "description": "export function"
-  },
-
-  // TODO: --- -- - Plus
-  "SelectComponent": {
-    "prefix": "l-sc",
-    "body": [
-      "this.selectComponent('$1', comp => {",
-      "  ${2:console.log(comp);}",
-      "});"
-    ],
-    "description": "SelectComponent"
-  },
-  "openSchema": {
-    "prefix": "l-open-schema",
-    "body": [
-      "NativeModules.bridge.call('openSchema', { schema: $1 }, () => {});"
-    ],
-    "description": "openSchema"
-  }
+	// TODO: --- -- - Plus
+	"SelectComponent": {
+		"prefix": "l-select-component",
+		"body": [
+			"this.selectComponent('$1', comp => {",
+			"  ${2:console.log(comp);}",
+			"});"
+		],
+		"description": "type 'les' and press ENTER"
+	},
+	"openSchema": {
+		"prefix": "l-open-schema",
+		"body": [
+			"NativeModules.bridge.call('openSchema', { schema: $1 }, () => {});"
+		],
+		"description": "Type 'los' and press ENTER"
+	}
 }
