@@ -4,44 +4,27 @@ This extension for Visual Studio Code adds snippets for Lynx-js for TypeScript a
 
 ![Use Extension](images/use-snippets.gif)
 
-## **Imports**
+| 🧩 Snippet                  | ⚡ Quick Shortcut            | 🔤 Prefix            | 📝 Short Description                      |
+|-----------------------------|-----------------------------|----------------------|-------------------------------------------|
+| Import Hook                 | `lho`                       | `l-hook.import`      | Imports `useState`, etc.                  |
+| Import CSS                  | `lcss`                      | `l-css.import`       | Local styles                              |
+| Import SCSS                 | `lscs`                      | `l-scss.import`      | Local styles                              |
+| Import Component            | `lcomp` / `lcp`             | `l-component.import` | From `/components`                        |
+| Import Image                | `lii`                       | `l-image.import`     | From `/assets`                            |
+| -                           | -                           | -                    | -                                         |
+| View                        | `lv`                        | `l-view`             | `<view>` with class                       |
+| Text                        | `lt`                        | `l-text`             | Simple text                               |
+| Image                       | `limg`                      | `l-image`            | `<image>` with class and src              |
+| -                           | -                           | -                    | -                                         |
+| Scroll View                 | `lll`                       | `l-scroll-view`      | Vertical scroll with styles               |
+| List                        | `ll`                        | `l-list`             | Waterfall-style list                      |
+| -                           | -                           | -                    | -                                         |
+| Export Arrow Func           | `lex`                       | `l-export => function` | Component with arrow function           |
+| Export Normal Func          | `lexx`                      | `l-exxport {} function` | Component using standard `function`   |
+| -                           | -                           | -                    | -                                         |
+| Select Component            | `les`                       | `l-select-component` | Uses `selectComponent()`                  |
+| Open Schema                 | `los`                       | `l-open-schema`      | Calls `bridge.call('openSchema')`         |
 
-| 🧩 Snippet       | 🔤 Prefix            | 📝 Short Description              | ⏩ Shortcut Key |
-| ---------------- | -------------------- | --------------------------------- | --------------- |
-| Import Hook      | `l-hook.import`      | Imports `useState`, etc.          | `lho`           |
-| Import CSS       | `l-css.import`       | Local `.css` style                | `lcss`          |
-| Import SCSS      | `l-scss.import`      | Local `.scss` style               | `lscs`          |
-| Import Component | `l-component.import` | Imports from `/components` folder | `lcomp` / `lcp` |
-| Import Image     | `l-image.import`     | Imports from `/assets` folder     | `lii`           |
-
-## **Basic Components**
-
-| 🧩 Snippet | 🔤 Prefix | 📝 Short Description     | ⏩ Shortcut Key |
-| ---------- | --------- | ------------------------ | --------------- |
-| View       | `l-view`  | `<view>` with class      | `lv`            |
-| Text       | `l-text`  | Simple text              | `lt`            |
-| Image      | `l-image` | Image with class and src | `limg`          |
-
-## **Scroll & List**
-
-| 🧩 Snippet  | 🔤 Prefix       | 📝 Short Description        | ⏩ Shortcut Key |
-| ----------- | --------------- | --------------------------- | --------------- |
-| Scroll View | `l-scroll-view` | Vertical scroll with styles | `lll`           |
-| List        | `l-list`        | Waterfall-type list         | `ll`            |
-
-## **Exporting Components**
-
-| 🧩 Snippet                  | 🔤 Prefix               | 📝 Short Description                | ⏩ Shortcut Key |
-| --------------------------- | ----------------------- | ----------------------------------- | --------------- |
-| Export Arrow Function       | `l-export => function`  | Component using arrow function      | `lex`           |
-| Export Declaration Function | `l-exxport {} function` | Component using standard `function` | `lexx`          |
-
-## **Plus**
-
-| 🧩 Snippet       | 🔤 Prefix            | 📝 Short Description              | ⏩ Shortcut Key |
-| ---------------- | -------------------- | --------------------------------- | --------------- |
-| Select Component | `l-select-component` | Calls `selectComponent()`         | `les`           |
-| Open Schema      | `l-open-schema`      | Calls `bridge.call('openSchema')` | `los`           |
 
 # Installation
 
