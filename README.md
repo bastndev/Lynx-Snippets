@@ -55,10 +55,4 @@ Here is the project link if you want to collaborate: [[>\_ ] code](https://githu
 - [Discord](https://discord.com/invite/bgzvzP6aZH) - Best for hanging out with the community.
 - [Youtube](https://www.youtube.com/@bastndev) - For more content about Lynx and programming,
 
-## Release Notes
-
-### 0.0.1
-
-Initial release of the keymapping extension.
-
 **Enjoy coding faster with Lynx-js Snippets!** 🚀
