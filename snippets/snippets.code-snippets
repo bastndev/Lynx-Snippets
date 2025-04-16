@@ -1,5 +1,5 @@
 {
-	// --- -- - TODO: import css & more
+	// --- -- - TODO: css & more MARK: import
 	"Import hook": {
 		"prefix": "l-hook.import",
 		"body": [
@@ -42,7 +42,7 @@
 		"description": "Type 'lii' and press ENTER"
 	},
 
-	// --- -- - TODO: Basic component
+	// --- -- - TODO: Basic MARK: component
 	"Lynx-js view": {
 		"prefix": "l-view",
 		"body": [
@@ -55,7 +55,7 @@
 	"Lynx-js Text": {
 		"prefix": "l-text",
 		"body": [
-			"<text>$1</text>",
+			"<text>$1</text>"
 		],
 		"description": "Type 'lt' and press ENTER"
 	},
@@ -67,7 +67,7 @@
 		"description": "Type 'limg' and press ENTER"
 	},
 
-	// --- -- - TODO: Scroll and List
+	// --- -- - TODO: List and MARK: Scroll
 	"Lynx-js Scroll View": {
 		"prefix": "l-scroll-view",
 		"body": [
@@ -90,8 +90,8 @@
 		"prefix": "l-list",
 		"body": [
 			"<list",
-			"  scroll-orientation=\"${1|vertical|}\"",
-			"  className=\"${2|list-container|}\"",
+			"  className=\"${1|list-container|}\"",
+			"  scroll-orientation=\"${2|vertical|}\"",
 			"  list-type=\"waterfall\"",
 			"  span-count={2}",
 			">",
@@ -101,7 +101,7 @@
 		"description": "Type 'll' and press ENTER"
 	},
 
-	// --- -- -TODO: Export Arrow function & function
+	// --- -- -TODO: Export Arrow function & MARK:  function
 	"Lynx-js Export Arrow Function": {
 		"prefix": "l-export => function",
 		"body": [
@@ -126,7 +126,27 @@
 		"description": "Type 'lexx' and press ENTER"
 	},
 
-	// TODO: --- -- - Plus
+	// TODO: --- -- - MARK: Plus
+	"Array": {
+		"prefix": "l-array",
+		"body": [
+			"{Array.from({ length: ${1|11|} }).map((item, index) => {",
+			"  return (",
+			"    $2",
+			"  );",
+			"})}"
+		],
+		"description": "Type 'arr' and press ENTER"
+	},
+	"List item": {
+		"prefix": "l-list-item",
+		"body": [
+			"<list-item item-key={`list-item-${index}`} key={`list-item-${index}`}>",
+			"  $1",
+			"</list-item>"
+		],
+		"description": "Type 'ltem' and press ENTER"
+	},
 	"SelectComponent": {
 		"prefix": "l-select-component",
 		"body": [
@@ -142,5 +162,52 @@
 			"NativeModules.bridge.call('openSchema', { schema: $1 }, () => {});"
 		],
 		"description": "Type 'los' and press ENTER"
+	},
+
+// ---- --- -- - TODO:  Mix Experimental MARK: 🧪 
+	"LynxJS Main": {
+		"prefix": "l-main",
+		"body": [
+			"import \"./App.css\";",
+			"",
+			"export function App() {",
+			"  return (",
+			"    <view class=\"container\">",
+			"      <text>${1|Hello 世界|}</text>",
+			"    </view>",
+			"  );",
+			"}",
+			""
+		],
+		"description": "Type 'lmain' and press ENTER"
+	},
+	"Array + list-item": {
+		"prefix": "l-array.list-item",
+		"body": [
+			"{Array.from({ length: ${1|20|} }).map((item, index) => {",
+			"  return (",
+			"    <list-item item-key={`list-item-index`} key={`list-item-index`}>",
+			"      $2",
+			"    </list-item>",
+			"  );",
+			"})}"
+		],
+		"description": "Type 'lal' and press ENTER"
+	},
+	"LynxJS export 2": {
+		"prefix": "x-export =>",
+		"body": [
+			"import \"./index.css\";",
+			"",
+			"export const ${1|ComponentName|} = () => {",
+			"  return (",
+			"    <view className=\"${2|example|}\">",
+			"      $3",
+			"    </view>",
+			"  );",
+			"};",
+			""
+		],
+		"description": "Type 'xx' and press ENTER"
 	}
 }
