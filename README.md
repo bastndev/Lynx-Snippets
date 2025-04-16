@@ -8,26 +8,32 @@ A powerful collection of snippets to boost your development workflow with Lynx.j
 
 Quick and intuitive shortcuts to speed up your Lynx.js development experience:
 
-| 🧩 Snippet         | ⚡ Quick Shortcut | 🔤 Prefix               | 📝 Short Description                |
-| ------------------ | ----------------- | ----------------------- | ----------------------------------- |
-| Import Hook        | `lho`             | `l-hook.import`         | Imports `useState`, etc.            |
-| Import CSS         | `lcss`            | `l-css.import`          | Local styles                        |
-| Import SCSS        | `lscs`            | `l-scss.import`         | Local styles                        |
-| Import Component   | `lcomp` / `lcp`   | `l-component.import`    | From `/components`                  |
-| Import Image       | `lii`             | `l-image.import`        | From `/assets`                      |
-| -                  | -                 | -                       | -                                   |
-| View               | `lv`              | `l-view`                | `<view>` with class                 |
-| Text               | `lt`              | `l-text`                | Simple text                         |
-| Image              | `limg`            | `l-image`               | `<image>` with class and src        |
-| -                  | -                 | -                       | -                                   |
-| Scroll View        | `lll`             | `l-scroll-view`         | Vertical scroll with styles         |
-| List               | `ll`              | `l-list`                | Waterfall-style list                |
-| -                  | -                 | -                       | -                                   |
-| Export Arrow Func  | `lex`             | `l-export => function`  | Component with arrow function       |
-| Export Normal Func | `lexx`            | `l-exxport {} function` | Component using standard `function` |
-| -                  | -                 | -                       | -                                   |
-| Select Component   | `les`             | `l-select-component`    | Uses `selectComponent()`            |
-| Open Schema        | `los`             | `l-open-schema`         | Calls `bridge.call('openSchema')`   |
+| 🧩 Snippet              | 🆎 Prefix               | ⚡ Quick Shortcut ⚡ |
+| ----------------------- | ----------------------- | -------------------- |
+| Import Hook             | `l-hook.import`         | `lho`                |
+| Import CSS              | `l-css.import`          | `lcss`               |
+| Import SCSS             | `l-scss.import`         | `lscs`               |
+| Import Component        | `l-component.import`    | `lcomp`/`lcp`        |
+| Import Image            | `l-image.import`        | `lii`                |
+| -                       | -                       | -                    |
+| View                    | `l-view`                | `lv`                 |
+| Text                    | `l-text`                | `lt`                 |
+| Image                   | `l-image`               | `limg`               |
+| -                       | -                       | -                    |
+| Scroll View             | `l-scroll-view`         | `lll`                |
+| List                    | `l-list`                | `ll`                 |
+| -                       | -                       | -                    |
+| Export Arrow Func       | `l-export => function`  | `lex`                |
+| Export Normal Func      | `l-exxport {} function` | `lexx`               |
+| -                       | -                       | -                    |
+| Select Component        | `l-select-component`    | `les`                |
+| Open Schema             | `l-open-schema`         | `los`                |
+| Array Loop              | `l-array`               | `arr`                |
+| List Item               | `l-list-item`           | `ltem`               |
+| -                       | -                       | -                    |
+| 🧪 Main Component       | `l-main`                | `lmain`              |
+| 🧪 Array + List Item    | `l-array.list-item`     | `lal`                |
+| 🧪 Export Component Alt | `x-export =>`           | `xx`                 |
 
 ## Installation
 
