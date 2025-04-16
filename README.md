@@ -1,4 +1,4 @@
-# Lynx-js Snippets 🐱‍👤
+# Lynx-js Snippets ⚡
 
 A powerful collection of snippets to boost your development workflow with Lynx.js
 
