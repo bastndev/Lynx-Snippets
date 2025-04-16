@@ -164,7 +164,23 @@
 		"description": "Type 'los' and press ENTER"
 	},
 
-	// ---- --- -- - TODO: MARK: Mix 
+// ---- --- -- - TODO:  Mix Experimental MARK: 🧪 
+	"LynxJS Main": {
+		"prefix": "l-main",
+		"body": [
+			"import \"./App.css\";",
+			"",
+			"export function App() {",
+			"  return (",
+			"    <view class=\"container\">",
+			"      <text>${1|Hello 世界|}</text>",
+			"    </view>",
+			"  );",
+			"}",
+			""
+		],
+		"description": "Type 'lmain' and press ENTER"
+	},
 	"Array + list-item": {
 		"prefix": "l-array.list-item",
 		"body": [
@@ -177,5 +193,21 @@
 			"})}"
 		],
 		"description": "Type 'lal' and press ENTER"
+	},
+	"LynxJS export 2": {
+		"prefix": "x-export =>",
+		"body": [
+			"import \"./index.css\";",
+			"",
+			"export const ${1|ComponentName|} = () => {",
+			"  return (",
+			"    <view className=\"${2|example|}\">",
+			"      $3",
+			"    </view>",
+			"  );",
+			"};",
+			""
+		],
+		"description": "Type 'xx' and press ENTER"
 	}
 }
