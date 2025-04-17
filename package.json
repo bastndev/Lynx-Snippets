@@ -2,7 +2,7 @@
   "name": "lynx-js-snippets",
   "displayName": "Lynx-js Snippets .tsx",
   "description": "Code snippets for Lynx-js and React-Lynx - Extension",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {

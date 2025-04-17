@@ -172,7 +172,7 @@
 			"",
 			"export function App() {",
 			"  return (",
-			"    <view class=\"container\">",
+			"    <view class=\"App\">",
 			"      <text>${1|Hello 世界|}</text>",
 			"    </view>",
 			"  );",

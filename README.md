@@ -1,4 +1,4 @@
-# Lynx-js Snippets 🐱‍👤
+# Lynx-js Snippets ⚡
 
 A powerful collection of snippets to boost your development workflow with Lynx.js
 
@@ -20,8 +20,8 @@ Quick and intuitive shortcuts to speed up your Lynx.js development experience:
 | Text                    | `l-text`                | `lt`                 |
 | Image                   | `l-image`               | `limg`               |
 | -                       | -                       | -                    |
-| Scroll View             | `l-scroll-view`         | `lll`                |
 | List                    | `l-list`                | `ll`                 |
+| Scroll View             | `l-scroll-view`         | `lll`                |
 | -                       | -                       | -                    |
 | Export Arrow Func       | `l-export => function`  | `lex`                |
 | Export Normal Func      | `l-exxport {} function` | `lexx`               |
