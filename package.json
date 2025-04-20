@@ -1,8 +1,8 @@
 {
   "name": "lynx-js-snippets",
   "displayName": "Lynx-js Snippets .tsx",
-  "description": "Code snippets for Lynx-js and React-Lynx - Extension",
-  "version": "0.1.9",
+  "description": "Available now: Lynx js and React whit TS & JS - Extension",
+  "version": "0.2.0",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -27,7 +27,7 @@
     "Lynx snipets",
     "snipets lynx js"
   ],
-  "icon": "icon.png",
+  "icon": "assets/icon.png",
   "galleryBanner": {
     "color": "#0a0a0a",
     "theme": "dark"
