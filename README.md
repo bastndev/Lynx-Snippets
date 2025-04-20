@@ -53,9 +53,9 @@ ext install bastndev.lynx-js-snippets
 
 ## Usage
 
-1. Open a Lynx.js file
-2. Type one of the quick shortcuts or prefixes
-3. Press Tab or Enter to expand the snippet
+1.  Open a file where you intend to write Lynx.js code (e.g., `.tsx`, `.jsx`).
+2.  Start typing one of the **Shortcuts** listed above.
+3.  Press `Tab` or `Enter` when the snippet suggestion appears to expand it.
 
 ## Contributors
 
