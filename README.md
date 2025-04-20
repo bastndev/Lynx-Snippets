@@ -2,7 +2,7 @@
 
 A powerful collection of snippets to boost your development workflow with Lynx.js
 
-![Use Extension](images/use-snippets.gif)
+![Use Extension](assets/gif/use-snippets.gif)
 
 ## Features
 
@@ -35,17 +35,27 @@ Quick and intuitive shortcuts to speed up your Lynx.js development experience:
 | 🧪 Array + List Item    | `l-array.list-item`     | `lal`                |
 | 🧪 Export Component Alt | `x-export =>`           | `xx`                 |
 
+</br>
+
 ## Installation
 
-1. Open Command Palette (Ctrl+P or Cmd+P on Mac)
-2. Type or paste: ext install bastndev.lynx-theme
-3. Press Enter to install
+Launch _Quick Open_
+
+- <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> Linux `Ctrl+P`
+- <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> macOS `⌘P`
+- <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> Windows `Ctrl+P`
+
+Paste the following command and press `Enter`:
+
+```
+ext install bastndev.lynx-js-snippets
+```
 
 ## Usage
 
-1. Open a Lynx.js file
-2. Type one of the quick shortcuts or prefixes
-3. Press Tab or Enter to expand the snippet
+1.  Open a file where you intend to write Lynx.js code (e.g., `.tsx`, `.jsx`).
+2.  Start typing one of the **Shortcuts** listed above.
+3.  Press `Tab` or `Enter` when the snippet suggestion appears to expand it.
 
 ## Contributors
 
