@@ -4,6 +4,12 @@ A powerful collection of snippets to boost your development workflow with Lynx.j
 
 ![Use Extension](assets/gif/use-snippets.gif)
 
+<p align="center">
+    <a href="https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-js-snippets"><img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-js-snippets.jpg?style=for-the-badge&colorA=0078ca&colorB=EEEEEE&color=000000&label=VERSION" alt="Version"></a>&nbsp;
+    <a href="https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-js-snippets"><img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-js-snippets.jpg?style=for-the-badge&colorA=0078ca&colorB=EEEEEE&color=000000&label=Rating" alt="Rating"></a>&nbsp;
+    <a href="https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-js-snippets"><img src="https://vsmarketplacebadges.dev/installs-short/bastndev.lynx-js-snippets.jpg?style=for-the-badge&colorA=0078ca&colorB=EEEEEE&color=000000&label=Installs" alt="Installs"></a>&nbsp;
+</p>
+
 ## Features
 
 Quick and intuitive shortcuts to speed up your Lynx.js development experience:
@@ -59,7 +65,7 @@ ext install bastndev.lynx-js-snippets
 
 ## Contributors
 
-Here is the project link if you want to collaborate: [[>\_ ] code](https://github.com/bastndev/Lynx-keymap).
+Here is the project link if you want to collaborate: [[>\_]](https://github.com/bastndev/Lynx-keymap).
 
 | [![bastndev](https://github.com/bastndev.png?size=100)](https://github.com/bastndev) |
 | :----------------------------------------------------------------------------------: |
@@ -67,8 +73,17 @@ Here is the project link if you want to collaborate: [[>\_ ] code](https://githu
 
 ## About Me
 
-- [X](https://twitter.com/bastndev) - Best for asking questions and discussing issues.
-- [Discord](https://discord.com/invite/bgzvzP6aZH) - Best for hanging out with the community.
-- [Youtube](https://www.youtube.com/@bastndev) - For more content about Lynx and programming,
+- 🐦 [X](https://twitter.com/bastndev) - For questions and discussions.
+- 💬 [Discord](https://discord.com/invite/bgzvzP6aZH) - For community interaction.
+- ▶️ [Youtube](https://www.youtube.com/@bastndev) - For content about Lynx and programming.
+
+</br>
+
+| Icon                                                                                                                                           | Name                                                                                             | Description                                                                                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-theme/0.1.2/1744898058774/Microsoft.VisualStudio.Services.Icons.Default)  | [Lynx Theme](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme)            | A sleek, customizable VS Code theme with built‑in support for Cursor‑AI, Windsurf & Trae‑AI integrations.                                       |
+| ![](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynxjs-pack/0.1.8/1745206864969/Microsoft.VisualStudio.Services.Icons.Default) | [LynxJS Pack](https://marketplace.visualstudio.com/items?itemName=bastndev.lynxjs-pack)          | An all‑in‑one toolkit for LynxJS mobile/web development—bundles keymap, snippets & AI tools like Cursor AI, Windsurf, Trae AI, Firebase Studio. |
+| ![](https://raw.githubusercontent.com/bastndev/Lynx-Keymap/refs/heads/main/assets/images/icon2.png)                                            | [Lynx Keymap + AI 75%](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-keymap) | An all‑in‑one toolkit for LynxJS mobile/web development—bundles keymap, snippets & AI tools like Cursor AI, Windsurf, Trae AI, Firebase Studio. |
 
 **Enjoy coding faster with Lynx-js Snippets!** 🚀
+[MORE](https://marketplace.visualstudio.com/publishers/bastndev)
