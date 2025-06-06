@@ -8,6 +8,7 @@ A powerful collection of snippets to boost your development workflow with Lynx.j
     <a href="https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-js-snippets"><img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-js-snippets.jpg?style=for-the-badge&colorA=0078ca&colorB=EEEEEE&color=000000&label=VERSION" alt="Version"></a>&nbsp;
     <a href="https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-js-snippets"><img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-js-snippets.jpg?style=for-the-badge&colorA=0078ca&colorB=EEEEEE&color=000000&label=Rating" alt="Rating"></a>&nbsp;
     <a href="https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-js-snippets"><img src="https://vsmarketplacebadges.dev/installs-short/bastndev.lynx-js-snippets.jpg?style=for-the-badge&colorA=0078ca&colorB=EEEEEE&color=000000&label=Installs" alt="Installs"></a>&nbsp;
+    <a href="https://github.com/sponsors/bastndev"><img src="https://raw.githubusercontent.com/bastndev/Lynx-js-Snippets/main/assets/images/sponsor.png" width="30px" alt="Sponsor Github"></a>
 </p>
 
 ## Features
@@ -67,9 +68,9 @@ ext install bastndev.lynx-js-snippets
 
 Here is the project link if you want to collaborate: [[>\_]](https://github.com/bastndev/Lynx-keymap).
 
-| [![bastndev](https://github.com/bastndev.png?size=100)](https://github.com/bastndev) |
-| :----------------------------------------------------------------------------------: |
-|                   **[Gohit Bastian](https://github.com/bastndev)**                   |
+| [![bastndev](https://github.com/bastndev.png?size=100)](https://www.bastndev.com) |
+| :-------------------------------------------------------------------------------: |
+|                 **[Gohit Bastian](https://github.com/bastndev)**                  |
 
 ## About Me
 
@@ -85,5 +86,5 @@ Here is the project link if you want to collaborate: [[>\_]](https://github.com/
 | ![](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynxjs-pack/0.1.8/1745206864969/Microsoft.VisualStudio.Services.Icons.Default) | [LynxJS Pack](https://marketplace.visualstudio.com/items?itemName=bastndev.lynxjs-pack)          | An all‑in‑one toolkit for LynxJS mobile/web development—bundles keymap, snippets & AI tools like Cursor AI, Windsurf, Trae AI, Firebase Studio. |
 | ![](https://raw.githubusercontent.com/bastndev/Lynx-Keymap/refs/heads/main/assets/images/icon2.png)                                            | [Lynx Keymap + AI 75%](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-keymap) | An all‑in‑one toolkit for LynxJS mobile/web development—bundles keymap, snippets & AI tools like Cursor AI, Windsurf, Trae AI, Firebase Studio. |
 
-**Enjoy coding faster with Lynx-js Snippets!** 🚀
-[MORE](https://marketplace.visualstudio.com/publishers/bastndev)
+**Enjoy coding faster with Lynx-js Snippets!If you have a suggestion, [open an issue](https://github.com/bastndev/Lynx-js-Snippets/issues)** and
+[MORE](https://marketplace.visualstudio.com/publishers/bastndev) 🚀...
