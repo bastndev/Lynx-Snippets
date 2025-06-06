@@ -62,7 +62,7 @@ ext install bastndev.lynx-js-snippets
 
 ## Contributors
 
-Here is the project link if you want to collaborate: [[>\_]](https://github.com/bastndev/Lynx-keymap).
+Here is the project link if you want to collaborate: [[>\_ ] code](https://github.com/bastndev/Lynx-js-Snippets).
 
 | [![bastndev](https://github.com/bastndev.png?size=100)](https://www.bastndev.com) |
 | :-------------------------------------------------------------------------------: |
