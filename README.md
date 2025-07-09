@@ -70,9 +70,9 @@ Here is the project link if you want to collaborate: [[>\_ ] code](https://githu
 
 ## About Me
 
-- 🐦 [X](https://twitter.com/bastndev) - For questions and discussions.
-- 💬 [Discord](https://discord.com/invite/bgzvzP6aZH) - For community interaction.
-- ▶️ [Youtube](https://www.youtube.com/@bastndev) - For content about Lynx and programming.
+- [🐦 X](https://twitter.com/bastndev) - For questions and discussions.
+- 🔴 [Youtube](https://www.youtube.com/@bastndev?sub_confirmation=1) - Code, Software and development insights.
+- 💼 [Linkedin](https://www.linkedin.com/in/bastndev) - Professional networking and career updates.
 
 </br>
 
