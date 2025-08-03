@@ -11,32 +11,36 @@
 
 Quick and intuitive shortcuts to speed up your Lynx.js development experience:
 
-| 🧩 Snippet              | 🆎 Prefix               | ⚡ Quick Shortcut |
-| ----------------------- | ----------------------- | ----------------- |
-| Import Hook             | `l-hook.import`         | `lho`             |
-| Import CSS              | `l-css.import`          | `lcss`            |
-| Import SCSS             | `l-scss.import`         | `lscs`            |
-| Import Component        | `l-component.import`    | `lcomp`/`lcp`     |
-| Import Image            | `l-image.import`        | `lii`             |
-| -                       | -                       | -                 |
-| View                    | `l-view`                | `lv`              |
-| Text                    | `l-text`                | `lt`              |
-| Image                   | `l-image`               | `limg`            |
-| -                       | -                       | -                 |
-| List                    | `l-list`                | `ll`              |
-| Scroll View             | `l-scroll-view`         | `lll`             |
-| -                       | -                       | -                 |
-| Export Arrow Func       | `l-export => function`  | `lex`             |
-| Export Normal Func      | `l-exxport {} function` | `lexx`            |
-| -                       | -                       | -                 |
-| Select Component        | `l-select-component`    | `les`             |
-| Open Schema             | `l-open-schema`         | `los`             |
-| Array Loop              | `l-array`               | `arr`             |
-| List Item               | `l-list-item`           | `ltem`            |
-| -                       | -                       | -                 |
-| 🧪 Main Component       | `l-main`                | `lmain`           |
-| 🧪 Array + List Item    | `l-array.list-item`     | `lal`             |
-| 🧪 Export Component Alt | `x-export =>`           | `xx`              |
+| 🧩 Snippet         | 🆎 Prefix               | ⚡ Quick Shortcut |
+| ------------------ | ----------------------- | ----------------- |
+| Import Hook        | `l-hook.import`         | `lho`             |
+| Import CSS         | `l-css.import`          | `lcss`            |
+| Import SCSS        | `l-scss.import`         | `lscs`            |
+| Import Component   | `l-component.import`    | `lcomp`/`lcp`     |
+| Import Image       | `l-image.import`        | `lii`             |
+| -                  | -                       | -                 |
+| View               | `l-view`                | `lv`              |
+| Text               | `l-text`                | `lt`              |
+| Image              | `l-image`               | `limg`            |
+| -                  | -                       | -                 |
+| List               | `l-list`                | `ll`              |
+| Scroll View        | `l-scroll-view`         | `lll`             |
+| -                  | -                       | -                 |
+| Export Arrow Func  | `l-export => function`  | `lex`             |
+| Export Normal Func | `l-exxport {} function` | `lexx`            |
+| -                  | -                       | -                 |
+| Select Component   | `l-select-component`    | `les`             |
+| Open Schema        | `l-open-schema`         | `los`             |
+| Array Loop         | `l-array`               | `arr`             |
+| List Item          | `l-list-item`           | `ltem`            |
+
+### 🧪 Test Snippets
+
+| 🧩 Snippet           | 🆎 Prefix           | ⚡ Quick Shortcut |
+| -------------------- | ------------------- | ----------------- |
+| Main Component       | `l-main`            | `lmain`           |
+| Array + List Item    | `l-array.list-item` | `lal`             |
+| Export Component Alt | `x-export =>`       | `xx`              |
 
 </br>
 
@@ -62,7 +66,7 @@ ext install bastndev.lynx-js-snippets
 
 ## Contributors
 
-Here is the project link if you want to collaborate: [[>\_ ] code](https://github.com/bastndev/Lynx-js-Snippets).
+If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/bastndev/Lynxjs-Snippets.tsx/blob/main/CONTRIBUTING.md) .
 
 | [![bastndev](https://github.com/bastndev.png?size=100)](https://www.bastndev.com) |
 | :-------------------------------------------------------------------------------: |
@@ -82,5 +86,4 @@ Here is the project link if you want to collaborate: [[>\_ ] code](https://githu
 | [![](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynxjs-pack/0.1.8/1745206864969/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynxjs-pack) | [LynxJS Pack](https://github.com/bastndev/LynxJs-Packge) | An all‑in‑one toolkit for LynxJS mobile/web development—bundles keymap, snippets & AI tools like Cursor AI, Windsurf, Trae AI, Firebase Studio. |
 | [![](https://raw.githubusercontent.com/bastndev/Lynx-Keymap/refs/heads/main/assets/images/logo.png)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-keymap)                                             | [Lynx Keymap](https://github.com/bastndev/Lynx-Keymap)   | An all‑in‑one toolkit for LynxJS mobile/web development—bundles keymap, snippets & AI tools like Cursor AI, Windsurf, Trae AI, Firebase Studio. |
 
-**Enjoy coding faster with Lynx-js Snippets! If you have a suggestion, [open an issue](https://github.com/bastndev/Lynx-js-Snippets/issues)** and
-[MORE](https://marketplace.visualstudio.com/publishers/bastndev) 🚀...
+**Ready! 🚀 Your snippets are configured. If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Lynxjs-Snippets.tsx/issues).**
