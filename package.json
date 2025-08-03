@@ -14,7 +14,6 @@
     "snippets",
     "productivity",
     "lynxjs snippet",
-    "productivity",
     "typescript",
     "reactLynx",
     "react",
@@ -41,7 +40,6 @@
   "sponsor": {
     "url": "https://github.com/sponsors/bastndev"
   },
-  
   "main": "./src/extension.js",
   "contributes": {
     "snippets": [
