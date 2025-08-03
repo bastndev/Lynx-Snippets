@@ -27,10 +27,10 @@
 | Export Arrow Func  | `l-export => function`  | `lex`             |
 | Export Normal Func | `l-exxport {} function` | `lexx`            |
 | -                  | -                       | -                 |
-| Select Component   | `l-select-component`    | `les`             |
-| Open Schema        | `l-open-schema`         | `los`             |
 | Array Loop         | `l-array`               | `arr`             |
 | List Item          | `l-list-item`           | `ltem`            |
+| Open Schema        | `l-open-schema`         | `los`             |
+| Select Component   | `l-select-component`    | `les`             |
 
 ### 🧪 Test Snippets
 
