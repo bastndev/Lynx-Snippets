@@ -1,32 +1,24 @@
 {
   "name": "lynx-js-snippets",
   "displayName": "Lynxjs Snippets .tsx",
-  "description": "Available now: VSCode, Cursor AI, Windsurf & Trae AI. + (Firebase Studio) & (+AI).",
-  "version": "0.2.6",
+  "description": "Available now: VSCode • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
+  "version": "0.3.0",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
-    "vscode": "^1.43.0"
+    "vscode": "^1.74.0"
   },
-  "categories": [
-    "Snippets"
-  ],
+  "categories": ["Snippets"],
   "keywords": [
-    "LynxJS",
+    "Lynxjs",
     "snippets",
     "productivity",
-    "typescript",
-    "framework",
-    "snippet lynx",
-    "Lynx snippets",
     "lynxjs snippet",
-    "react",
-    "lynx",
+    "productivity",
+    "typescript",
     "reactLynx",
-    "snippets",
-    "Lynx snipets",
-    "snipets lynx js",
-    "lynxjs snippet"
+    "react",
+    "Lynx"
   ],
   "icon": "assets/icon.png",
   "galleryBanner": {
@@ -46,6 +38,11 @@
     "email": "gobasdev@gmail.com",
     "url": "https://www.bastndev.com"
   },
+  "sponsor": {
+    "url": "https://github.com/sponsors/bastndev"
+  },
+  
+  "main": "./src/extension.js",
   "contributes": {
     "snippets": [
       {
