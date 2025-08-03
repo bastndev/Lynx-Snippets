@@ -41,7 +41,6 @@
     "url": "https://github.com/sponsors/bastndev"
   },
 
-  "main": "./src/extension.js",
   "contributes": {
     "snippets": [
       {
