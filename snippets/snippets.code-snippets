@@ -139,13 +139,13 @@
 		"description": "Type 'arr' and press ENTER"
 	},
 	"List item": {
-		"prefix": "l-list-item",
-		"body": [
-			"<list-item item-key={`list-item-${index}`} key={`list-item-${index}`}>",
-			"  $1",
-			"</list-item>"
-		],
-		"description": "Type 'ltem' and press ENTER"
+	    "prefix": "l-list-item",
+	    "body": [
+	        "<list-item item-key={`list-item-\\${$1}`} key={`list-item-\\${$1}`}>",
+	        "  $2",
+	        "</list-item>"
+	    ],
+	    "description": "Type 'ltem' and press ENTER"
 	},
 	"SelectComponent": {
 		"prefix": "l-select-component",
