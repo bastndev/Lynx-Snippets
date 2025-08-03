@@ -66,7 +66,7 @@ ext install bastndev.lynx-js-snippets
 
 ## Contributors
 
-Here is the project link if you want to collaborate: [[>\_ ] code](https://github.com/bastndev/Lynx-js-Snippets).
+If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/bastndev/Lynxjs-Snippets.tsx/blob/main/CONTRIBUTING.md) .
 
 | [![bastndev](https://github.com/bastndev.png?size=100)](https://www.bastndev.com) |
 | :-------------------------------------------------------------------------------: |
@@ -86,5 +86,4 @@ Here is the project link if you want to collaborate: [[>\_ ] code](https://githu
 | [![](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynxjs-pack/0.1.8/1745206864969/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynxjs-pack) | [LynxJS Pack](https://github.com/bastndev/LynxJs-Packge) | An all‑in‑one toolkit for LynxJS mobile/web development—bundles keymap, snippets & AI tools like Cursor AI, Windsurf, Trae AI, Firebase Studio. |
 | [![](https://raw.githubusercontent.com/bastndev/Lynx-Keymap/refs/heads/main/assets/images/logo.png)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-keymap)                                             | [Lynx Keymap](https://github.com/bastndev/Lynx-Keymap)   | An all‑in‑one toolkit for LynxJS mobile/web development—bundles keymap, snippets & AI tools like Cursor AI, Windsurf, Trae AI, Firebase Studio. |
 
-**Enjoy coding faster with Lynx-js Snippets! If you have a suggestion, [open an issue](https://github.com/bastndev/Lynx-js-Snippets/issues)** and
-[MORE](https://marketplace.visualstudio.com/publishers/bastndev) 🚀...
+**Ready! 🚀 Your snippets are configured. If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Lynxjs-Snippets.tsx/issues).**
