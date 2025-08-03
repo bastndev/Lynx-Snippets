@@ -7,9 +7,7 @@
     <a href="https://github.com/bastndev/Lynxjs-Snippets.tsx"><img src="https://raw.githubusercontent.com/bastndev/Lynxjs-Snippets.tsx/main/assets/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
-## Features
-
-Quick and intuitive shortcuts to speed up your Lynx.js development experience:
+</br>
 
 | 🧩 Snippet         | 🆎 Prefix               | ⚡ Quick Shortcut |
 | ------------------ | ----------------------- | ----------------- |
@@ -42,6 +40,12 @@ Quick and intuitive shortcuts to speed up your Lynx.js development experience:
 | Array + List Item    | `l-array.list-item` | `lal`             |
 | Export Component Alt | `x-export =>`       | `xx`              |
 
+### 🚀 How to Use
+
+1. Open a `.tsx` or `.jsx` file.
+2. Type any **Quick Shortcut** (e.g., `lv` for View).
+3. Press `Tab` or `Enter` to expand the snippet.
+
 </br>
 
 ## Installation
@@ -57,12 +61,6 @@ Paste the following command and press `Enter`:
 ```
 ext install bastndev.lynx-js-snippets
 ```
-
-## Usage
-
-1.  Open a file where you intend to write Lynx.js code (e.g., `.tsx`, `.jsx`).
-2.  Start typing one of the **Shortcuts** listed above.
-3.  Press `Tab` or `Enter` when the snippet suggestion appears to expand it.
 
 ## Contributors
 
