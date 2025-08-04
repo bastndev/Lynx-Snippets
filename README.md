@@ -50,8 +50,8 @@
 
 This extension includes several commands to help you manage your snippets more efficiently. You can access these commands from the command palette (`Ctrl+Shift+P` or `Cmd+Shift+P`):
 
-- 🗂️ **`Manage Snippets:`**  Opens the snippet management interface, where you can view and organize your existing snippets.
-- ✨ **`Create New Snippet:`** Starts the process to create a new custom snippet.
+- 🛠️ **`Manage Snippets:`** Edit • Delete • Refresh • (Reset Snippet) & ➕ Create new snippet.
+- ➕ **`Create New Snippet:`** Starts the process to create a new custom snippet.
 - 🔄 **`Refresh Snippets:`** Reloads and updates your snippet collection to reflect the latest changes.
 
 Use these commands to quickly create, manage, update, or recover your LynxJS snippets without leaving the editor.
