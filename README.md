@@ -1,6 +1,4 @@
-<p align="center">
-    <img src="https://raw.githubusercontent.com/bastndev/Lynxjs-Snippets.tsx/refs/heads/main/assets/gif/snippet-preview.gif" alt="Snippet Preview" width="100%">
-</p>
+![Use Extension](https://raw.githubusercontent.com/bastndev/Lynxjs-Snippets.tsx/refs/heads/main/assets/gif/snippet-preview.gif)
 
 <p align="center">
     <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-js-snippets.jpg?style=for-the-badge&colorA=0078ca&colorB=EEEEEE&color=000000&label=VERSION" alt="Version">&nbsp;
