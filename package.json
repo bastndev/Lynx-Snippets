@@ -50,18 +50,18 @@
     "commands": [
       {
         "command": "lynx-js-snippets.manage",
-        "title": "Manage Snippets",
-        "category": "🛠️ Lynxjs"
+        "title": "Manage Snippets 🛠️",
+        "category": "Lynxjs"
       },
       {
         "command": "lynx-js-snippets.createSnippet",
         "title": "Create New Snippet",
-        "category": "➕ Lynxjs"
+        "category": "Lynxjs"
       },
       {
         "command": "lynx-js-snippets.refreshSnippets",
         "title": "Refresh Snippets",
-        "category": "🔄 Lynxjs"
+        "category": "Lynxjs"
       }
     ],
     "snippets": [
