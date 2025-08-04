@@ -67,11 +67,11 @@
     "snippets": [
       {
         "language": "typescriptreact",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/react.code-snippets"
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/react.code-snippets"
       }
     ]
   }

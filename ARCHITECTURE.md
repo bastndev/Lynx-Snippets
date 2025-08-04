@@ -119,7 +119,7 @@ lynx-js-snippets/
 ├── src/
 │   └── extension.js              # Main entry point & all logic
 ├── snippets/
-│   └── snippets.code-snippets    # Original snippet definitions
+│   └── react.code-snippets       # Original snippet definitions
 ├── assets/
 │   ├── icon.png                  # Extension icon
 │   └── gif/

@@ -82,7 +82,7 @@ git push origin dev
 
 - `package.json` - Add new snippet configurations for the editor
 - `src/extension.js` - Configure editor detection and management
-- `snippets/snippets.code-snippets` - Ensure snippet compatibility
+- `snippets/react.code-snippets` - Ensure snippet compatibility
 
 **Example process**:
 
@@ -146,7 +146,7 @@ lynx-js-snippets/
 │   └── extension.js              # 🎯 MAIN CONTRIBUTION AREA
 │                                 # Main entry point & all logic
 ├── snippets/
-│   └── snippets.code-snippets    # 🎯 SNIPPET DEFINITIONS
+│   └── react.code-snippets       # 🎯 SNIPPET DEFINITIONS
 │                                 # Original snippet templates
 ├── assets/
 │   ├── icon.png                  # Extension icon
@@ -158,7 +158,7 @@ lynx-js-snippets/
 
 ### Key Files for Contributors
 
-**`snippets/snippets.code-snippets`** - Main snippet definitions:
+**`snippets/react.code-snippets`** - Main snippet definitions:
 
 - Add new Lynxjs snippet patterns
 - Configure snippet prefixes and shortcuts
@@ -257,7 +257,7 @@ The project maintains specific formatting for snippet files. Your changes should
 
 **New snippet files**: Descriptive names like:
 
-- `[category]-snippets.code-snippets`
+- `[category]-react.code-snippets`
 - `[framework-feature]-patterns.code-snippets`
 - `[editor-name]-compatibility.code-snippets`
 
@@ -294,7 +294,7 @@ When adding support for a new editor:
 
 - **Bugs or issues?** Create an [Issue](https://github.com/bastndev/Lynxjs-Snippets.tsx/issues)
 - **Architecture questions?** Check the [Architecture documentation](https://github.com/bastndev/Lynxjs-Snippets.tsx/blob/main/ARCHITECTURE.md)
-- **Need inspiration?** Study existing snippets in `snippets/snippets.code-snippets`
+- **Need inspiration?** Study existing snippets in `snippets/react.code-snippets`
 
 ## Code of Conduct 📋
 
