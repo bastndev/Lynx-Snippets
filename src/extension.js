@@ -295,7 +295,7 @@ function createActionItems(file) {
   // Add reset option if original exists
   if (file.hasOriginal) {
     actions.push({
-      label: "↩️ Reset to Original",
+      label: "♻️ Reset to Original",
       description: "Restore to extension default",
       command: "lynx-js-snippets.resetSnippet",
       args: [file.path, file.originalPath],

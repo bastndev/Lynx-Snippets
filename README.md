@@ -40,21 +40,20 @@
 | Array + List Item    | `l-array.list-item` | `lal`             |
 | Export Component Alt | `x-export =>`       | `xx`              |
 
+## 🧩 Extension Commands [ + ]
+
+This extension includes several commands to help you manage your snippets efficiently. You can access these commands by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS).
+
+- 🛠️ **`Manage Snippets:`** Edit • Delete • Refresh • (Reset Snippet) & Create new snippet.
+- ✍️ **`Create New Snippet:`** Starts the process to create a new custom snippet.
+- ♻️ **`Reset Snippets:`** Restore a snippet to its original state.
+<!-- - 🔄 **`Refresh Snippets:`** Reloads and updates your snippet collection to reflect the latest changes. -->
+
 ### 🚀 How to Use
 
 1. Open a `.tsx` or `.jsx` file.
 2. Type any **Quick Shortcut** (e.g., `lv` for View).
 3. Press `Tab` or `Enter` to expand the snippet.
-
-### 🛠️ Extension Commands
-
-This extension includes several commands to help you manage your snippets more efficiently. You can access these commands from the command palette (`Ctrl+Shift+P` or `Cmd+Shift+P`):
-
-- 🛠️ **`Manage Snippets:`** Edit • Delete • Refresh • (Reset Snippet) & ➕ Create new snippet.
-- ➕ **`Create New Snippet:`** Starts the process to create a new custom snippet.
-- 🔄 **`Refresh Snippets:`** Reloads and updates your snippet collection to reflect the latest changes.
-
-Use these commands to quickly create, manage, update, or recover your LynxJS snippets without leaving the editor.
 
 </br>
 
