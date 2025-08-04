@@ -152,7 +152,7 @@ function copySnippetFile(sourcePath, targetPath, fileName) {
  * @param {vscode.ExtensionContext} context - Extension context
  * @param {Object} paths - Object containing extension paths
  */
-function showSnippetsManager(context, paths) {
+function showSnippetsManager(_context, paths) {
   try {
     const snippetFiles = getSnippetFiles(paths);
 
@@ -295,7 +295,7 @@ function createActionItems(file) {
   // Add reset option if original exists
   if (file.hasOriginal) {
     actions.push({
-      label: "↩️ Reset to Original",
+      label: "♻️ Reset to Original",
       description: "Restore to extension default",
       command: "lynx-js-snippets.resetSnippet",
       args: [file.path, file.originalPath],
@@ -353,7 +353,7 @@ function resetSnippet(snippetPath, originalPath) {
  * @param {string} originalPath - Path to original snippet file
  * @returns {boolean} True if operation can proceed
  */
-function validateResetOperation(snippetPath, originalPath) {
+function validateResetOperation(_snippetPath, originalPath) {
   if (!fs.existsSync(originalPath)) {
     vscode.window.showErrorMessage(
       `Original snippet file not found: ${path.basename(originalPath)}`
@@ -558,7 +558,7 @@ function setupFileWatcher(context, snippetsPath) {
     const watcher = fs.watch(
       snippetsPath,
       { recursive: true },
-      (eventType, filename) => {
+      (_eventType, filename) => {
         if (filename && filename.endsWith(".code-snippets")) {
           handleSnippetFileChange(filename);
         }
