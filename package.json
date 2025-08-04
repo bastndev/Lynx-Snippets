@@ -2,7 +2,7 @@
   "name": "lynx-js-snippets",
   "displayName": "Lynxjs Snippets .tsx",
   "description": "Available now: VSCode • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -50,18 +50,18 @@
     "commands": [
       {
         "command": "lynx-js-snippets.manage",
-        "title": "Manage Snippets",
-        "category": "LynxJS"
+        "title": "Manage Snippets 🛠️",
+        "category": "Lynxjs"
       },
       {
         "command": "lynx-js-snippets.createSnippet",
         "title": "Create New Snippet",
-        "category": "LynxJS"
+        "category": "Lynxjs"
       },
       {
         "command": "lynx-js-snippets.refreshSnippets",
         "title": "Refresh Snippets",
-        "category": "LynxJS"
+        "category": "Lynxjs"
       }
     ],
     "snippets": [
