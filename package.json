@@ -43,6 +43,23 @@
 
   "main": "./src/extension.js",
   "contributes": {
+    "commands": [
+      {
+        "command": "lynx-js-snippets.manage",
+        "title": "Manage Snippets",
+        "category": "LynxJS"
+      },
+      {
+        "command": "lynx-js-snippets.createSnippet",
+        "title": "Create New Snippet",
+        "category": "LynxJS"
+      },
+      {
+        "command": "lynx-js-snippets.refreshSnippets",
+        "title": "Refresh Snippets",
+        "category": "LynxJS"
+      }
+    ],
     "snippets": [
       {
         "language": "typescriptreact",
