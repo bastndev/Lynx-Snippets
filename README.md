@@ -1,4 +1,4 @@
-![Use Extension](assets/gif/use-snippets.gif)
+![Use Extension](assets/gif/snippet-preview.gif)
 
 <p align="center">
     <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-js-snippets.jpg?style=for-the-badge&colorA=0078ca&colorB=EEEEEE&color=000000&label=VERSION" alt="Version">&nbsp;
