@@ -212,7 +212,7 @@ function createSnippetFileObject(fileName, paths) {
 function createQuickPickItems(snippetFiles) {
   const fileItems = snippetFiles.map((file) => ({
     label: `📄 ${file.name}`,
-    description: "LynxJS Snippet file",
+    description: "Lynxjs Snippet file",
     detail: file.hasOriginal ? "Can be reset to original" : "Custom file",
     file: file,
   }));
@@ -420,7 +420,7 @@ function handleError(message, error) {
  * Extension deactivation function
  */
 function deactivate() {
-  console.log("LynxJS Snippets extension deactivated");
+  console.log("Lynxjs Snippets extension deactivated");
 }
 // ============================================================================
 // FUNCTION 3: FLEXIBILITY - Create new snippets
