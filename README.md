@@ -50,10 +50,9 @@
 
 This extension includes several commands to help you manage your snippets efficiently. You can access these commands by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS).
 
-- 🛠️ **`Manage Snippets:`** Edit • Delete • Refresh • (Reset Snippet) & Create new snippet.
-- ✍️ **`Create New Snippet:`** Starts the process to create a new custom snippet.
-- ♻️ **`Reset Snippets:`** Restore a snippet to its original state.
-<!-- - 🔄 **`Refresh Snippets:`** Reloads and updates your snippet collection to reflect the latest changes. -->
+- 🛠️ **Lynxjs: `Manage Snippets:`** Edit • Delete • Refresh • (Reset Snippet) & Create new snippet.
+- 🔄 **Lynxjs: `Refresh Snippets:`** Reloads your snippets to reflect recent changes — yaa!!"
+- ✍️ **Lynxjs: `Create New Snippet:`** Starts the process to create a new custom snippet.
 
 </br>
 
