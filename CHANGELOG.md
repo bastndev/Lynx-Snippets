@@ -20,13 +20,20 @@ Discover more extensions at [bastndev.com/extensions](https://bastndev.com/exten
 
 Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
 
-## [0.6.1] - 2025-08-04
+## [0.6.2] - 2025-08-04
 
-### Changes
-- Renamed the main snippet file from `snippets.code-snippets` to `react.code-snippet` for improved clarity and alignment with React-focused workflows.
-- Updated all relevant documentation and extension references to use the new file name.
-- Verified compatibility with VS Code and ensured snippet loading continues to function as expected.
-- If you have custom snippets, please migrate them to the new `react.code-snippet` file format.
+### File Structure Improvements
+- **🔄 Renamed Core File**: Changed main snippet file from `snippets.code-snippets` to `react.code-snippets` for better React workflow clarity
+- **📚 Documentation Updates**: Updated all extension references and documentation to reflect the new naming convention
+- **✅ Compatibility Verified**: Ensured seamless snippet loading and VS Code integration with the new file structure
+- **🔧 Migration Notice**: Users with custom snippets should migrate to the new `react.code-snippets` file format
+
+### Extension Commands Enhancement
+- **🛠️ Manage Snippets**: `lynx-js-snippets.manage` - Complete snippet management interface (Edit • Delete • Reset • Create)
+- **🔄 Refresh Snippets**: `lynx-js-snippets.refreshSnippets` - Instant snippet reload without VS Code restart
+- **✍️ Create New Snippet**: `lynx-js-snippets.createSnippet` - Guided custom snippet creation workflow
+
+> **Command Palette Access**: Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) and search for "Lynxjs"
 
 ## [0.6.0] - 2025-08-03
 
