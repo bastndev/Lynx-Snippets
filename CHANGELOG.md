@@ -20,6 +20,11 @@ Discover more extensions at [bastndev.com/extensions](https://bastndev.com/exten
 
 Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
 
+## [0.6.3] - 2025-09-01
+
+### CHANGE
+- **name** change name of "Lynxjs snippets .tsx" to "Lynx Snippets"
+
 ## [0.6.2] - 2025-08-04
 
 ### File Structure Improvements
