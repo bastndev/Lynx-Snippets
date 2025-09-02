@@ -1,10 +1,10 @@
-![Use Extension](https://raw.githubusercontent.com/bastndev/Lynxjs-Snippets.tsx/refs/heads/main/assets/gif/snippet-preview.gif)
+![Use Extension](https://raw.githubusercontent.com/bastndev/Lynx-Snippets/refs/heads/main/assets/gif/snippet-preview.gif)
 
 <p align="center">
     <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-js-snippets.jpg?style=for-the-badge&colorA=0078ca&colorB=EEEEEE&color=000000&label=VERSION" alt="Version">&nbsp;
     <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-js-snippets.jpg?style=for-the-badge&colorA=0078ca&colorB=EEEEEE&color=000000&label=Rating" alt="Rating">&nbsp;
     <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-js-snippets.jpg?style=for-the-badge&colorA=0078ca&colorB=EEEEEE&color=000000&label=Downloads" alt="Downloads">&nbsp;
-    <a href="https://github.com/bastndev/Lynxjs-Snippets.tsx"><img src="https://raw.githubusercontent.com/bastndev/Lynxjs-Snippets.tsx/main/assets/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
+    <a href="https://github.com/bastndev/Lynx-Snippets"><img src="https://raw.githubusercontent.com/bastndev/Lynx-Snippets/main/assets/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
 </br>
