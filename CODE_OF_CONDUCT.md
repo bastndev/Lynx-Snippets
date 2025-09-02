@@ -18,9 +18,9 @@ We strive to create a positive environment where everyone can contribute effecti
 - Focusing on improving the development experience for everyone
 - Recognizing that different perspectives and experiences make our snippets better
 - Being patient when helping others troubleshoot issues or understand the shortcuts
-- Sharing knowledge about LynxJS development workflows and productivity tips
+- Sharing knowledge about Lynxjs development workflows and productivity tips
 - Respecting different editor preferences and development environments
-- Contributing to snippet improvements and suggesting new LynxJS patterns
+- Contributing to snippet improvements and suggesting new Lynxjs patterns
 - Helping users transition between different supported editors (VS Code, Cursor, Windsurf, Trae.ai, Kiro, Firebase Studio)
 
 **Unacceptable behavior includes:**
@@ -31,22 +31,22 @@ We strive to create a positive environment where everyone can contribute effecti
 - Any conduct that creates a hostile or unwelcoming environment
 - Spam or off-topic discussions that don't contribute to the project
 - Editor elitism or dismissing users with different development setups
-- Discouraging questions about LynxJS framework or snippet usage
+- Discouraging questions about Lynxjs framework or snippet usage
 
 ## Types of Contributions
 
 We value all forms of contribution to Lynxjs Snippets, including:
 
 - Bug reports and feature requests
-- Snippet improvements and new LynxJS patterns
+- Snippet improvements and new Lynxjs patterns
 - Documentation updates and clarifications
 - Screenshots and usage examples
 - Multi-editor compatibility improvements
 - Community support and helping other users
-- LynxJS framework workflow optimization suggestions
+- Lynxjs framework workflow optimization suggestions
 - Testing snippets across different supported editors
 
-For detailed guidelines on how to contribute, please see our [Contributing Guidelines](https://github.com/bastndev/Lynxjs-Snippets.tsx/blob/main/CONTRIBUTING.md).
+For detailed guidelines on how to contribute, please see our [Contributing Guidelines](https://github.com/bastndev/Lynx-Snippets/blob/main/CONTRIBUTING.md).
 
 ## Reporting Issues and Contact
 
@@ -56,12 +56,12 @@ If you experience or witness behavior that violates these guidelines, please rep
 
 **When contacting the maintainer, please include the project name in your email subject line using this format:**
 
-**Subject: [Lynxjs Snippets] - [Brief description of your message]**
+**Subject: [Lynx Snippets] - [Brief description of your message]**
 
 **Examples:**
-- `[Lynxjs Snippets] - Code of Conduct Violation Report`
-- `[Lynxjs Snippets] - Project Collaboration Inquiry`
-- `[Lynxjs Snippets] - General Project Discussion`
+- `[Lynx Snippets] - Code of Conduct Violation Report`
+- `[Lynx Snippets] - Project Collaboration Inquiry`
+- `[Lynx Snippets] - General Project Discussion`
 
 This helps ensure your message is properly categorized and receives prompt attention, especially since the maintainer manages multiple open source projects.
 

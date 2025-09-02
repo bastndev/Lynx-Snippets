@@ -1,15 +1,15 @@
-# Lynx JS Snippets Architecture
+# Lynx Snippets Architecture
 
 ## Overview
 
-**Lynx JS Snippets** is a collection of optimized code snippets designed to accelerate web and mobile development in LynxJS projects. It automates the writing of common code structures through intelligent snippet management and cross-platform compatibility across multiple code editors including VS Code, Cursor, Windsurf, Trae.ai, Kiro, and Firebase Studio.
+**Lynx JS Snippets** is a collection of optimized code snippets designed to accelerate web and mobile development in LynxJS projects. It automates the writing of common code structures through intelligent snippet management and cross-platform compatibility across multiple code editors including VS Code, Cursor, Windsurf, Trae.ai, Kiro, Firebase Studio, and now Zed.
 
-**Available now**: VS Code • Cursor • Windsurf • Trae.ai • Kiro • Firebase Studio
+**Available now**: VS Code • Cursor • Windsurf • Trae.ai • Kiro • Firebase Studio • Zed
 
 ### Key Value Propositions
 
-- **🧩 Complete LynxJS Toolkit**: 20+ optimized snippets for components, imports, and utilities
-- **🌐 Universal Editor Support**: Consistent experience across 6 major code editors
+- **🧩 Complete Lynxjs Toolkit**: 25+ optimized snippets for components, imports, and utilities (updated with new additions)
+- **🌐 Universal Editor Support**: Consistent experience across 7 major code editors
 - **🔧 Dynamic Management**: Create, edit, reset, and delete snippets with intelligent UI
 - **⚡ Enhanced Productivity**: Quick shortcuts (lv, lt, limg) for rapid development
 - **🔄 Auto-Synchronization**: Real-time file watching with automatic reload notifications
@@ -19,73 +19,77 @@
 
 ```mermaid
 graph TB
-    subgraph "📦 Lynx JS Snippets Extension"
-        direction TB
-        A[package.json<br/>📋 Main Configuration]
+  subgraph "📦 Lynx JS Snippets Extension"
+    direction TB
+    A[package.json<br/>📋 Main Configuration]
 
-        subgraph "🎯 Core Systems"
-            direction TB
-            E[SnippetManager<br/>🧩 Snippet Operations]
-            F[FileWatcher<br/>🔄 Auto-Sync]
-            G[CommandRegistry<br/>⚡ Command Handling]
-            H[PathManager<br/>📁 File Management]
-        end
-
-        subgraph "🌐 Multi-Editor Support"
-            direction LR
-            K[🌊 Windsurf]
-            L[📝 VS Code]
-            M[🎯 Cursor-AI]
-            N[🚀 Trae-AI]
-            O[🔥 Firebase Studio]
-            P[🤖 Kiro]
-        end
+    subgraph "🎯 Core Systems"
+      direction TB
+      E[SnippetManager<br/>🧩 Snippet Operations]
+      F[FileWatcher<br/>🔄 Auto-Sync]
+      G[CommandRegistry<br/>⚡ Command Handling]
+      H[PathManager<br/>📁 File Management]
+      I[EditorAdapter<br/>🌐 Multi-Editor Bridge]  %% New component for better abstraction
     end
 
-    subgraph "📁 File Structure"
-        direction TB
-        Q[snippets/<br/>📄 Original Templates]
-        R[globalStorage/<br/>💾 User Snippets]
-        S[.tsx/.jsx Files<br/>🎯 Target Languages]
+    subgraph "🌐 Multi-Editor Support"
+      direction LR
+      K[🌊 Windsurf]
+      L[📝 VS Code]
+      M[🎯 Cursor-AI]
+      N[🚀 Trae-AI]
+      O[🔥 Firebase Studio]
+      P[🤖 Kiro]
+      Q[⚡ Zed]  %% Added Zed support
     end
+  end
 
-    subgraph "🎯 VS Code Integration"
-        direction TB
-        W[Extension Host<br/>🏠 Runtime]
-        Z[User Interface<br/>👤 Editor Experience]
-    end
+  subgraph "📁 File Structure"
+    direction TB
+    R[snippets/<br/>📄 Original Templates]
+    S[globalStorage/<br/>💾 User Snippets]
+    T[.tsx/.jsx Files<br/>🎯 Target Languages]
+  end
 
-    %% Main connections
-    A --> E
-    A --> F
-    A --> G
-    A --> H
-    E --> K
-    E --> L
-    E --> M
-    E --> N
-    E --> O
-    E --> P
+  subgraph "🎯 VS Code Integration"
+    direction TB
+    U[Extension Host<br/>🏠 Runtime]
+    V[User Interface<br/>👤 Editor Experience]
+  end
 
-    E --> Q
-    E --> R
-    E --> S
+  %% Main connections
+  A --> E
+  A --> F
+  A --> G
+  A --> H
+  H --> I  %% PathManager connects to EditorAdapter
+  I --> K
+  I --> L
+  I --> M
+  I --> N
+  I --> O
+  I --> P
+  I --> Q  %% EditorAdapter handles all editors
 
-    A -.-> W
-    W --> Z
+  E --> R
+  E --> S
+  E --> T
 
-    %% Styling
-    classDef mainConfig fill:#ff6b6b,stroke:#333,stroke-width:2px,color:#fff
-    classDef managers fill:#4ecdc4,stroke:#333,stroke-width:2px,color:#fff
-    classDef editors fill:#dda0dd,stroke:#333,stroke-width:2px,color:#000
-    classDef files fill:#ffd93d,stroke:#333,stroke-width:2px,color:#000
-    classDef integration fill:#a8e6cf,stroke:#333,stroke-width:2px,color:#000
+  A -.-> U
+  U --> V
 
-    class A mainConfig
-    class E,F,G,H managers
-    class K,L,M,N,O,P editors
-    class Q,R,S files
-    class W,Z integration
+  %% Styling
+  classDef mainConfig fill:#ff6b6b,stroke:#333,stroke-width:2px,color:#fff
+  classDef managers fill:#4ecdc4,stroke:#333,stroke-width:2px,color:#fff
+  classDef editors fill:#dda0dd,stroke:#333,stroke-width:2px,color:#000
+  classDef files fill:#ffd93d,stroke:#333,stroke-width:2px,color:#000
+  classDef integration fill:#a8e6cf,stroke:#333,stroke-width:2px,color:#000
+
+  class A mainConfig
+  class E,F,G,H,I managers
+  class K,L,M,N,O,P,Q editors
+  class R,S,T files
+  class U,V integration
 ```
 
 ## 🧩 LynxJS Component Structure
@@ -98,9 +102,9 @@ graph TB
   <text>Hello LynxJS</text>
   <image src={logo} className="logo" />
   <list scroll-orientation="vertical">
-    <list-item item-key="item-1">
-      <text>List Item</text>
-    </list-item>
+  <list-item item-key="item-1">
+    <text>List Item</text>
+  </list-item>
   </list>
 </view>
 ```
@@ -117,7 +121,8 @@ graph TB
 ```
 lynx-js-snippets/
 ├── src/
-│   └── extension.js              # Main entry point & all logic
+│   ├── extension.js              # Main entry point & all logic
+│   └── editorAdapter.js          # New: Handles multi-editor compatibility
 ├── snippets/
 │   └── react.code-snippets       # Original snippet definitions
 ├── assets/
@@ -139,6 +144,7 @@ lynx-js-snippets/
 - `lscs` → SCSS file imports
 - `lcomp/lcp` → Component imports
 - `lii` → Image imports
+- `ljson` → JSON import (new)
 
 **Component Snippets**
 
@@ -147,6 +153,7 @@ lynx-js-snippets/
 - `limg` → `<image>` element
 - `ll` → `<list>` with waterfall layout
 - `lll` → `<scroll-view>` with orientation
+- `lbtn` → `<button>` element (new)
 
 **Function Snippets**
 
@@ -185,9 +192,11 @@ lynx-js-snippets/
 | Import SCSS        | `l-scss.import`         | `lscs`            | SCSS file import             |
 | Import Component   | `l-component.import`    | `lcomp`/`lcp`     | Component from ./components  |
 | Import Image       | `l-image.import`        | `lii`             | Image from ./assets          |
+| Import JSON        | `l-json.import`         | `ljson`           | JSON file import             |
 | View               | `l-view`                | `lv`              | Basic view container         |
 | Text               | `l-text`                | `lt`              | Text element                 |
 | Image              | `l-image`               | `limg`            | Image with className         |
+| Button             | `l-button`              | `lbtn`            | Button element               |
 | List               | `l-list`                | `ll`              | Waterfall list layout        |
 | Scroll View        | `l-scroll-view`         | `lll`             | Scrollable container         |
 | Export Arrow Func  | `l-export => function`  | `lex`             | Arrow function export        |
@@ -226,6 +235,7 @@ lynx-js-snippets/
 | 🚀 **Trae-AI**         | Full          | Standard implementation   |
 | 🤖 **Kiro**            | Full          | Emerging platform support |
 | 🔥 **Firebase Studio** | Full          | Basic snippet support     |
+| ⚡ **Zed**             | Full          | New: Full integration     |
 
 **How it works**: Extension uses VS Code's native snippet system, ensuring compatibility across all VS Code-based editors.
 
@@ -273,8 +283,8 @@ ext install bastndev.lynx-js-snippets
 
 ### Key Benefits
 
-- **🧩 Complete LynxJS Coverage**: 20+ snippets covering all framework components
-- **🌐 Universal Compatibility**: Works seamlessly across 6 major code editors
+- **🧩 Complete LynxJS Coverage**: 25+ snippets covering all framework components (updated)
+- **🌐 Universal Compatibility**: Works seamlessly across 7 major code editors (added Zed)
 - **🔧 Dynamic Management**: Full CRUD operations for snippet customization
 - **⚡ Enhanced Productivity**: Quick shortcuts eliminate repetitive typing
 - **🔄 Auto-Synchronization**: Real-time updates without manual intervention

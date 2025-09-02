@@ -1,8 +1,8 @@
 {
   "name": "lynx-js-snippets",
-  "displayName": "Lynxjs Snippets .tsx",
+  "displayName": "Lynx Snippets",
   "description": "Available now: VSCode • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
-  "version": "0.6.2",
+  "version": "0.6.4",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -24,13 +24,13 @@
     "color": "#0a0a0a",
     "theme": "dark"
   },
-  "homepage": "https://github.com/bastndev/Lynx-js-Snippets#readme",
+  "homepage": "https://github.com/bastndev/Lynx-Snippets#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bastndev/Lynx-js-Snippets"
+    "url": "https://github.com/bastndev/Lynx-Snippets"
   },
   "bugs": {
-    "url": "https://github.com/bastndev/Lynx-js-Snippets/issues"
+    "url": "https://github.com/bastndev/Lynx-Snippets/issues"
   },
   "author": {
     "name": "Gohit Bastian",
