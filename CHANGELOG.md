@@ -27,6 +27,19 @@ Following VS Code best practices, Lynx Theme Pro uses semantic versioning for al
 
 ## [0.6.4] - 2025-09-02
 
+### Architecture Updates
+- **🏗️ Enhanced Architecture Documentation**: Updated technical documentation to reflect the latest modular design, including detailed diagrams and explanations of the snippet management system, file watchers, and cross-editor compatibility layers.
+- **🔧 Refactored Core Modules**: Improved separation of concerns in the extension's architecture, with dedicated managers for snippets, commands, paths, and validation to ensure better maintainability and scalability.
+
+### Documentation & Open Source
+- **📋 Updated Code of Conduct**: Revised the Code of Conduct to include clearer guidelines on community interactions, reporting issues, and enforcing standards for a more inclusive environment.
+- **🤝 Enhanced Contributing Guide**: Updated `CONTRIBUTING.md` with step-by-step instructions for setting up the development environment, submitting pull requests, and contributing to the multi-editor foundation, including new sections on testing and code review processes.
+- **📚 Synchronized Documentation**: Ensured all references in README.md and other docs align with the latest architecture changes and contribution workflows.
+
+### Technical Improvements
+- **🛠️ Validation Enhancements**: Strengthened input validation for custom snippet creation to prevent errors and improve user feedback.
+- **🔄 Optimized Synchronization**: Fine-tuned the auto-synchronization feature for better performance in real-time file watching across supported editors.
+
 ### Name Change
 - **📝 Renamed Extension**: Updated the extension name from "Lynxjs Snippets .tsx" to "Lynx Snippets" for improved branding and simplicity.
 

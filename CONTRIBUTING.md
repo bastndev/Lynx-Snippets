@@ -1,4 +1,4 @@
-# Contributing to Lynxjs Snippets .tsx
+# Contributing to Lynx Snippets
 
 ## Welcome! 🌟
 
@@ -8,7 +8,7 @@ Whether you want to add support for new editors, create new Lynxjs snippets, imp
 
 ## Understanding the Project 🏗️
 
-Before diving into contributions, we recommend reading our [**Architecture Documentation**](https://github.com/bastndev/Lynxjs-Snippets.tsx/blob/main/ARCHITECTURE.md) to understand:
+Before diving into contributions, we recommend reading our [**Architecture Documentation**](https://github.com/bastndev/Lynx-Snippets/blob/main/ARCHITECTURE.md) to understand:
 
 - How the snippet system works across multiple editors
 - The dynamic management and auto-synchronization system
@@ -29,13 +29,13 @@ This will help you make more effective contributions and understand where your c
 
 ### Setting Up Your Development Environment
 
-1. **Fork the repository**: Click the "Fork" button on the [Lynxjs Snippets repository](https://github.com/bastndev/Lynxjs-Snippets.tsx)
+1. **Fork the repository**: Click the "Fork" button on the [Lynx Snippets repository](https://github.com/bastndev/Lynx-Snippets)
 
 2. **Clone your fork**:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Lynxjs-Snippets.tsx.git
-cd Lynxjs-Snippets.tsx
+git clone https://github.com/YOUR-USERNAME/Lynx-Snippets.git
+cd Lynx-Snippets
 ```
 
 3. **Switch to the dev branch**:
@@ -292,13 +292,13 @@ When adding support for a new editor:
 
 ## Getting Help 🆘
 
-- **Bugs or issues?** Create an [Issue](https://github.com/bastndev/Lynxjs-Snippets.tsx/issues)
-- **Architecture questions?** Check the [Architecture documentation](https://github.com/bastndev/Lynxjs-Snippets.tsx/blob/main/ARCHITECTURE.md)
+- **Bugs or issues?** Create an [Issue](https://github.com/bastndev/Lynx-Snippets/issues)
+- **Architecture questions?** Check the [Architecture documentation](https://github.com/bastndev/Lynx-Snippets/blob/main/ARCHITECTURE.md)
 - **Need inspiration?** Study existing snippets in `snippets/react.code-snippets`
 
 ## Code of Conduct 📋
 
-Please read and follow our [Code of Conduct](https://github.com/bastndev/Lynxjs-Snippets.tsx/blob/main/CODE_OF_CONDUCT.md) to ensure a welcoming environment for everyone.
+Please read and follow our [Code of Conduct](https://github.com/bastndev/Lynx-Snippets/blob/main/CODE_OF_CONDUCT.md) to ensure a welcoming environment for everyone.
 
 ---
 
