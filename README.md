@@ -96,6 +96,6 @@ If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/ba
 <div align="center">
   <p><strong>Made with 🧡 by <a href="https://bastndev.com/extensions">Gohit Bastian</a></strong></p>
   
-  **Ready! 🚀 Your snippets are configured.**  
+  **Ready! 🚀 Your (Lynx snippets) are configured.**  
   *If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Lynx-Snippets/issues).*
 </div>
