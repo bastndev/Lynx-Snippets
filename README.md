@@ -60,9 +60,9 @@ This extension includes several commands to help you manage your snippets effici
 
 Launch _Quick Open_
 
-- <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> Linux `Ctrl+P`
-- <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> macOS `⌘P`
-- <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> Windows `Ctrl+P`
+- <img src="https://raw.githubusercontent.com/bastndev/bastndev/refs/heads/main/.github/assets/OS/linux.png" width=16 height=16/> Linux `Ctrl+P`
+- <img src="https://raw.githubusercontent.com/bastndev/bastndev/refs/heads/main/.github/assets/OS/macOs.ico" width=16 height=16/> macOS `⌘P`
+- <img src="https://raw.githubusercontent.com/bastndev/bastndev/refs/heads/main/.github/assets/OS/windows.ico" width=16 height=16/> Windows `Ctrl+P`
 
 Paste the following command and press `Enter`:
 
@@ -77,6 +77,7 @@ If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/ba
 | [![bastndev](https://github.com/bastndev.png?size=100)](https://www.bastndev.com) |
 | :-------------------------------------------------------------------------------: |
 |                 **[Gohit Bastian](https://github.com/bastndev)**                  |
+|                              _Creator & Maintainer_                               |
 
 ## About Me
 
@@ -86,10 +87,15 @@ If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/ba
 
 </br>
 
-| Icon                                                                                                                                                                                                                                     | Name                                                     | Description                                                                                                                                                                                        |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![LynxJS Pack](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynxjs-pack/0.1.8/1745206864969/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynxjs-pack)    | [LynxJS Pack](https://github.com/bastndev/LynxJs-Packge) | An all-in-one toolkit for web and mobile development with LynxJS: includes keyboard shortcuts, error alerts, text correction, snippets, and more. Tools designed to streamline your workflow.      |
-| [![Lynx Theme Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-theme/0.1.2/1744898058774/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme)   | [Lynx Theme Pro](https://github.com/bastndev/Lynx-Theme) | A professional extension with six available themes: Dark, Light, Night, Ghibli, Coffee, and Kiro—with integrated icons. Each theme is optimized to offer a more pleasant visual experience.        |
-| [![Bracket Lynx](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/bracket-lynx/0.2.0/1748219628473/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.bracket-lynx) | [Bracket Lynx](https://github.com/bastndev/Bracket-Lynx) | Enhances the development experience by displaying a label next to each closing parenthesis, indicating the name of the corresponding block or function, along with the start and end line numbers. |
+| Icon                                                                                                                                                                                                                                     | Name                                                     | Description                                                                                                                                                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![LynxJS Pack](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynxjs-pack/0.1.8/1745206864969/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynxjs-pack)    | [LynxJS Pack](https://github.com/bastndev/LynxJs-Packge) | An all-in-one toolkit for web and mobile development with LynxJS: includes keyboard shortcuts, error alerts, text correction, snippets, and more. Tools designed to streamline your workflow. |
+| [![Lynx Theme Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-theme/0.1.2/1744898058774/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme)   | [Lynx Theme Pro](https://github.com/bastndev/Lynx-Theme) | A professional extension with six available themes: Dark, Light, Night, Ghibli, Coffee, and Kiro—with integrated icons. Each theme is optimized to offer a more pleasant visual experience.   |
+| [![Compare Code](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/compare-code/0.1.0/1759529717256/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.compare-code) | [Compare Code](https://github.com/bastndev/Compare-Code) | Lets you compare code in a professional, fast, and clear way. With a modern and intuitive interface, it's ideal for developers looking to boost their productivity.                           |
 
-**Ready! 🚀 Your snippets are configured. If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Lynx-Snippets/issues).**
+<div align="center">
+  <p><strong>Made with 🧡 by <a href="https://bastndev.com/extensions">Gohit Bastian</a></strong></p>
+  
+  **Ready! 🚀 Your snippets are configured.**  
+  *If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Lynx-Snippets/issues).*
+</div>
