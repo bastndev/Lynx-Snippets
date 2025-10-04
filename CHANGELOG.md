@@ -21,9 +21,28 @@ Discover more extensions at [bastndev.com/extensions](https://bastndev.com/exten
 Following VS Code best practices, Lynx Theme Pro uses semantic versioning for all releases.
 
 
-</br>
+<br>
 
 <!-- --- -->
+## [0.6.5] - 2025-10-03
+
+### Documentation Enhancements
+- **📚 Comprehensive Documentation Overhaul**: Significantly improved all documentation files with clearer structure, better formatting, and enhanced readability across README.md, CONTRIBUTING.md, and technical guides.
+- **🎯 Enhanced Snippet Reference**: Updated snippet reference table with detailed descriptions, usage examples, and categorized sections for improved developer experience and faster snippet discovery.
+- **🔍 Improved Code Examples**: Added comprehensive code examples and visual demonstrations for each snippet category, making it easier for developers to understand and implement snippets effectively.
+- **📖 Better Navigation Structure**: Reorganized documentation hierarchy with improved table of contents, cross-references, and logical flow for seamless information discovery.
+
+### User Experience Improvements
+- **🚀 Streamlined Getting Started Guide**: Created a more intuitive onboarding experience with step-by-step instructions, common use cases, and troubleshooting tips for new users.
+- **💡 Enhanced Usage Instructions**: Provided clearer explanations of snippet activation, customization options, and best practices for optimal development workflow integration.
+- **🔧 Improved Command Documentation**: Updated command palette instructions with detailed descriptions, keyboard shortcuts, and visual guides for all available extension commands.
+
+### Technical Documentation
+- **🏗️ Architecture Documentation Updates**: Enhanced technical documentation with updated diagrams, clearer explanations of the modular design, and detailed API references for contributors.
+- **🛠️ Development Setup Guide**: Improved development environment setup instructions with platform-specific guidelines, dependency management, and testing procedures.
+- **📋 Enhanced Troubleshooting Section**: Expanded troubleshooting guide with common issues, solutions, and debugging steps for better user support and self-service resolution.
+
+---
 
 ## [0.6.4] - 2025-09-02
 

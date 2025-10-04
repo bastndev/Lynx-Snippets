@@ -2,7 +2,7 @@
   "name": "lynx-js-snippets",
   "displayName": "Lynx Snippets",
   "description": "Available now: VSCode • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "publisher": "bastndev",
   "license": "MIT",
   "engines": {
@@ -13,7 +13,7 @@
     "Lynxjs",
     "snippets",
     "productivity",
-    "lynxjs snippet",
+    "lynx snippet",
     "typescript",
     "reactLynx",
     "react",
