@@ -74,10 +74,10 @@ ext install bastndev.lynx-js-snippets
 
 If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/bastndev/Lynx-Snippets/blob/main/CONTRIBUTING.md) .
 
-|               ![bastndev](https://github.com/bastndev.png?size=100)               |
-| :-------------------------------------------------------------------------------: |
-|                 **[Gohit Bastian](https://bastndev.com)**                  |
-|                              _Creator & Maintainer_                               |
+| ![bastndev](https://github.com/bastndev.png?size=100) |
+| :---------------------------------------------------: |
+|       **[Gohit Bastian](https://bastndev.com)**       |
+|                _Creator & Maintainer_                 |
 
 ## About Me
 
