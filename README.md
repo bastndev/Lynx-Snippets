@@ -74,9 +74,9 @@ ext install bastndev.lynx-js-snippets
 
 If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/bastndev/Lynx-Snippets/blob/main/CONTRIBUTING.md) .
 
-| [![bastndev](https://github.com/bastndev.png?size=100)](https://www.bastndev.com) |
+|               ![bastndev](https://github.com/bastndev.png?size=100)               |
 | :-------------------------------------------------------------------------------: |
-|                 **[Gohit Bastian](https://github.com/bastndev)**                  |
+|                 **[Gohit Bastian](https://bastndev.com)**                  |
 |                              _Creator & Maintainer_                               |
 
 ## About Me
@@ -96,7 +96,7 @@ If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/ba
 <br>
 
 <div align="center">
-  <p><strong>Made with 🧡 by <a href="https://bastndev.com/extensions">@bastndev</a></strong></p>
+  <p><strong>Made with 🧡 by <a href="https://github.com/bastndev">@bastndev</a></strong></p>
   
   **Ready! 🚀 Your (Lynx snippets) are configured.**  
   *If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Lynx-Snippets/issues).*
