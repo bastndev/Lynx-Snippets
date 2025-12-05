@@ -12,7 +12,7 @@ A comprehensive collection of TypeScript React snippets designed to boost your p
 - **React Focused**: Tailored for modern React development patterns
 - **Experimental Features**: Beta snippets for testing and community feedback
 
-Discover more extensions at [bastndev.com/extensions](https://bastndev.com/extensions)
+  Discover more extensions [here](https://gohit.xyz/)
 
 ---
 
